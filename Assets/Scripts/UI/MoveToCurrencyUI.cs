@@ -9,10 +9,6 @@ public class MoveToCurrencyUI : MonoBehaviour
     private Vector3 goldPos;
     Vector2 viewportPoint; 
     
-    private void Update()
-    {
-        // transform.position = Vector3.MoveTowards(transform.position,UIManager.Instance.CurrencyUI.GoldImage.position,Time.deltaTime * 12f);
-    }
 
     private void Start()
     {

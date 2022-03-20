@@ -11,11 +11,8 @@ public class CurrencyUI : MonoBehaviour
     public RectTransform GoldImage;
     public RectTransform goldInitPos;
     public GameObject goldPrefab;
-    public Vector2 goldScreenInitPos;
     [HideInInspector][Range(0f,300f)]
     public int currencyAmount;
-
-    public GameObject coinDeneme;
     private void Awake()
     {
         currencyAmount = PlayerPrefsKeys.GoldAmount;

@@ -2072,11 +2072,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8fbf96a90d48bda49a63cf21325b4711, type: 3}
---- !u!224 &1787408631 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2635593174970960351, guid: 9dcd5477f310bcd4aa7238d3bbfa5208, type: 3}
-  m_PrefabInstance: {fileID: 6655943758535229185}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1840873684
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2624,7 +2619,7 @@ PrefabInstance:
     - target: {fileID: 354990654361371976, guid: 3204f7ff1add3d44d987987f9ddc77ab, type: 3}
       propertyPath: goldInitPos
       value: 
-      objectReference: {fileID: 1787408631}
+      objectReference: {fileID: 6655943758535229186}
     - target: {fileID: 1642034886412317104, guid: 3204f7ff1add3d44d987987f9ddc77ab, type: 3}
       propertyPath: m_Name
       value: UIManager
@@ -2969,6 +2964,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9dcd5477f310bcd4aa7238d3bbfa5208, type: 3}
+--- !u!224 &6655943758535229186 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5536935586640758064, guid: 9dcd5477f310bcd4aa7238d3bbfa5208, type: 3}
+  m_PrefabInstance: {fileID: 6655943758535229185}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6857814435661808386
 PrefabInstance:
   m_ObjectHideFlags: 0
