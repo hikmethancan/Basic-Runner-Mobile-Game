@@ -1,7 +1,1606 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="426b25a3-d3d4-4d16-8052-bc3363d2e9b3" name="Changes" comment="" />
+    <list default="true" id="426b25a3-d3d4-4d16-8052-bc3363d2e9b3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Basic-Runner-Mobile-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Basic-Runner-Mobile-Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Dance.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Dance.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Run.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Run.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Run2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Run2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animator/PlayerAnim.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animator/PlayerAnim.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/Boxophobic.SkyboxCubemapExtended.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/Boxophobic.SkyboxCubemapExtended.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedHub.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedHub.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedShaderGUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedShaderGUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedWindows.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedWindows.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/Version.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/Version.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Functions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Functions/Compute Rotation Y.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Functions/Compute Rotation Y.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Blend.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Blend.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Extended.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Extended.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Blend.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Blend.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Day.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Day.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Night.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Night.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTree.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTree.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTreeVariation.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTreeVariation.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Grass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Grass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Rock.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Rock.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Terrain.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Terrain.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - TreeTrunk.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - TreeTrunk.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Wood.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Wood.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Blend.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Blend.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Day.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Day.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Night.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Night.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Fence A.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Fence A.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Fence B.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Fence B.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - FirTree A.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - FirTree A.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - FirTree B.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - FirTree B.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Grass A.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Grass A.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Grass B.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Grass B.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Rock A.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Rock A.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Rock B.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Rock B.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Terrain.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Terrain.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Fence A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Fence A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Fence B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Fence B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - FirTree A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - FirTree A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - FirTree B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - FirTree B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Grass A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Grass A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Grass B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Grass B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Rock A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Rock A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Rock B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Rock B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Settings/Demo.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Settings/Demo.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Skybox Cubemap Extended.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Skybox Cubemap Extended.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/User.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/User/User.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/User/User.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Boxophobic.Utils.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Boxophobic.Utils.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Constants.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Constants/Constants.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Constants/Constants.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - BannerBegin.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - BannerBegin.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - BannerEnd.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - BannerEnd.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - BannerMiddle.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - BannerMiddle.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - CategoryBegin.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - CategoryBegin.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - CategoryEnd.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - CategoryEnd.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - CategoryMiddle.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - CategoryMiddle.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - IconEdit.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - IconEdit.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - IconHelp.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - IconHelp.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - Logo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/SettingsUtils.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/SettingsUtils/LoadSettingsData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/SettingsUtils/LoadSettingsData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/SettingsUtils/SaveSettingsData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/SettingsUtils/SaveSettingsData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledGUI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorBanner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorBanner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorCategory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorCategory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowBanner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowBanner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowCategory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowCategory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledBannerDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledBannerDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledButtonDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledButtonDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledCategoryDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledCategoryDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledEnumDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledEnumDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledIndentDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledIndentDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledInteractiveDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledInteractiveDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledLayersDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledLayersDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledMaskDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledMaskDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledMessageDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledMessageDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledRangeOptionsDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledRangeOptionsDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledSpaceDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledSpaceDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTextDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTextDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTexturePreviewDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTexturePreviewDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledBannerDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledBannerDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledButtonDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledButtonDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledCategoryDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledCategoryDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledDiffusionMaterialDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledDiffusionMaterialDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledEmissiveIntensityDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledEmissiveIntensityDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledEnumDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledEnumDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledIndentDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledIndentDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledInteractiveDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledInteractiveDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledLayersDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledLayersDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledMaskDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledMaskDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledMessageDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledMessageDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledOptionsSliderDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledOptionsSliderDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledRemapSliderDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledRemapSliderDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledSpaceDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledSpaceDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextureDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextureDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextureSingleLineDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextureSingleLineDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledToggleDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledToggleDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledVectorDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledVectorDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMono.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMono/StyledMonoBehaviourEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMono/StyledMonoBehaviourEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMono/StyledScriptableObjectEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/StyledMono/StyledScriptableObjectEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Version.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Editor/Version.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/Boxophobic.Utils.Scripts.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/Boxophobic.Utils.Scripts.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/SettingsUtils.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/SettingsUtils/SettingsData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/SettingsUtils/SettingsData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledGizmos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledGizmos/StyledLabelGizmo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledGizmos/StyledLabelGizmo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledIndent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledIndent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledInteractive.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledInteractive.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledLayers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledLayers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledRangeOptions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledRangeOptions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledSpace.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledSpace.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledMono.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledMonoBehaviour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledMonoBehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledScriptableObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledScriptableObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Utils.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Utils/Utils.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Documentation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Documentation/Documentation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Documentation/Documentation.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Examples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Examples/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Examples/Scripts/LeanLoadScene.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Examples/Scripts/LeanLoadScene.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Examples/Scripts/LeanPongBall.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Examples/Scripts/LeanPongBall.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Examples/Scripts/LeanSelectedString.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Examples/Scripts/LeanSelectedString.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanChase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanChase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanChaseRigidbody.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanChaseRigidbody.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanChaseRigidbody2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanChaseRigidbody2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanClosestDirection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanClosestDirection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanConstrainLocalPosition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanConstrainLocalPosition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanConstrainScale.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanConstrainScale.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanConstrainToAxis.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanConstrainToAxis.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanConstrainToBox.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanConstrainToBox.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanConstrainToCollider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanConstrainToCollider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanConstrainToColliders.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanConstrainToColliders.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanConstrainToDirection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanConstrainToDirection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanConstrainToOrthographic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanConstrainToOrthographic.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanDelayedValue.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanDelayedValue.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanDeselected.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanDeselected.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanFollow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanFollow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanMaintainDistance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanMaintainDistance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanManualRescale.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanManualRescale.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanManualRotate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanManualRotate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanManualTorque.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanManualTorque.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanManualTranslate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanManualTranslate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanManualTranslateRigidbody.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanManualTranslateRigidbody.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanManualTranslateRigidbody2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanManualTranslateRigidbody2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanManualVelocity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanManualVelocity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanManualVelocity2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanManualVelocity2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanOrbit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanOrbit.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanPitchYaw.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanPitchYaw.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanPitchYawAutoRotate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanPitchYawAutoRotate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanRandomEvents.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanRandomEvents.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanRemapValue.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanRemapValue.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanRevertTransform.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanRevertTransform.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanRotateToPosition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanRotateToPosition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanRotateToRigidbody2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanRotateToRigidbody2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanSelected.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanSelected.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanSelectedCount.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanSelectedCount.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanSelectedRatio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanSelectedRatio.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanSmoothedValue.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanSmoothedValue.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanSpawnBetween.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanSpawnBetween.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanSwap.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanSwap.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanThresholdDelta.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanThresholdDelta.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanThresholdPosition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanThresholdPosition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanValue.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/Extras/LeanValue.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/GUIDE.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/GUIDE.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/LeanCommonPlus.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/LeanCommonPlus.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common+/package.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Documentation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Documentation/Documentation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Documentation/Documentation.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Documentation/LeanGuide.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Documentation/LeanGuide.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts/VarelaRound-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts/VarelaRound-Regular.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts/VarelaRound-Regular.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts/VarelaRound-Regular.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Black.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Black.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Circuit.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Circuit.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Grey.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Grey.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Grid.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Grid.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Orange.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Orange.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Purple.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Purple.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Skybox.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Skybox.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/White.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/White.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Yellow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Yellow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Meshes/RoundedCube.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Meshes/RoundedCube.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Button.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Button.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Canvas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Canvas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Demo.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Demo.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Grid.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Grid.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/InfoInUI.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/InfoInUI.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/InfoInWorld.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/InfoInWorld.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Label.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Label.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/RoundedCube.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/RoundedCube.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Skybox.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Skybox.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanLinkTo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanLinkTo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanUpgradeEventSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanUpgradeEventSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Alpha.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Alpha.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Object.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Object.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Skybox.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Skybox.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Description.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Description.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Grid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Grid.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Heart.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanDestroy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanDestroy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanFormatString.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanFormatString.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanPath.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanPath.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanPlane.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanPlane.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanRoll.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanRoll.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanSelect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanSelect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanSelectable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanSelectable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanSelectableBehaviour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanSelectableBehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanSelectableGraphicColor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanSelectableGraphicColor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanSelectableRendererColor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanSelectableRendererColor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanSelectableSpriteRendererColor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanSelectableSpriteRendererColor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanSpawn.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Extras/LeanSpawn.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/GUIDE.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/GUIDE.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/LeanCommon.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/LeanCommon.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanHelper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/package.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/READ ME.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/READ ME.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Third-Party Notices.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Third-Party Notices.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Documentation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Documentation/Documentation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Documentation/Documentation.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/01 Finger Held.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/01 Finger Held.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/02    Spawn.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/02    Spawn.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/03 Finger Tap Expired.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/03 Finger Tap Expired.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/04    Rotate.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/04    Rotate.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/05    Isolate.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/05    Isolate.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/06 Multi Twist.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/06 Multi Twist.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/07    One Finger.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/07    One Finger.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/08    Axis.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/08    Axis.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/09       Delay.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/09       Delay.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/10 Multi Tap.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/10 Multi Tap.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/11 Translate Rigidbody.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/11 Translate Rigidbody.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/12    Under.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/12    Under.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/13 Translate Rigidbody2D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/13 Translate Rigidbody2D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/14    Under.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/14    Under.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/15 First Down &amp; Last Up.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/15 First Down &amp; Last Up.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/16 Multi Held.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/16 Multi Held.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/01 Orbit.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/01 Orbit.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/02    Zoom.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/02    Zoom.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/03       Wheel.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/03       Wheel.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/04       Relative.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/04       Relative.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/05    Auto Rotate.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/05    Auto Rotate.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/06    Dolly.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/06    Dolly.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/07       Collision.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/07       Collision.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/08    Center.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/08    Center.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/09    Move.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/09    Move.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/10       TopDown.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/10       TopDown.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/11    Swipe.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/11    Swipe.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/12    Snap.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/12    Snap.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/13 First Person.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/13 First Person.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/14    Move.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/14    Move.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/15    Tap Look.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/15    Tap Look.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/16 Freeflight.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/16 Freeflight.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/17    Rigidbody.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/17    Rigidbody.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/18    Object.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/18    Object.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/19 Sidescroll 2D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/19 Sidescroll 2D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/20    Zoom.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/20    Zoom.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/21       Constrain.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/21       Constrain.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/22       Rotate.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/22       Rotate.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/23          Map.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/23          Map.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/24 Sidescroll 3D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/24 Sidescroll 3D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/25    Zoom.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/25    Zoom.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/26       Rotate.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/26       Rotate.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/27 Top Down.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/27 Top Down.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/28    SwipeMove.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/28    SwipeMove.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/29       Clamp.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/29       Clamp.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/Conflicting Controls.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/Conflicting Controls.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/One Finger Zoom.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Camera/One Finger Zoom.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/01 Finger Down Canvas.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/01 Finger Down Canvas.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/02    Move.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/02    Move.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/03    Swipe Move.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/03    Swipe Move.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/04 Multi Update Canvas.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/04 Multi Update Canvas.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/05    Rotate.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/05    Rotate.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/06       DPad.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/06       DPad.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/07    Move.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/07    Move.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/08 Drag To Spawn.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/08 Drag To Spawn.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/09    Selectable.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/09    Selectable.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/10       Drop.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/10       Drop.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/11    Destroy If Blocked.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/11    Destroy If Blocked.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/12       Required Tag.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/12       Required Tag.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/15 Swipe Direction Spawn.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Canvas/15 Swipe Direction Spawn.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Constrain.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Constrain/01 Constrain Scale.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Constrain/01 Constrain Scale.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Constrain/02 Constrain To Box.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Constrain/02 Constrain To Box.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Constrain/03 Constrain To Axis.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Constrain/03 Constrain To Axis.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Constrain/04 Constrain To Collider.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Constrain/04 Constrain To Collider.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Constrain/05 Constrain To Colliders.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Constrain/05 Constrain To Colliders.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Constrain/06 Constrain To Direction.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Constrain/06 Constrain To Direction.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Constrain/07 Constrain Rigidbody.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Constrain/07 Constrain Rigidbody.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Constrain/08 Constrain Rigidbody2D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Constrain/08 Constrain Rigidbody2D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Dial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Dial/01 Dial 3D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Dial/01 Dial 3D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Dial/02    Clamp.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Dial/02    Clamp.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Dial/03    Lever.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Dial/03    Lever.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Dial/04    Trigger.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Dial/04    Trigger.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Dial/05    Angle.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Dial/05    Angle.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Dial/06       0 to 1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Dial/06       0 to 1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Dial/07    UI.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Dial/07    UI.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Dial/08 Rotate To Position.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Dial/08 Rotate To Position.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Dial/09    Under.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Dial/09    Under.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/01 Drag.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/01 Drag.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/02    Turn 2D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/02    Turn 2D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/03       Reset.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/03       Reset.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/04 DragTurn1D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/04 DragTurn1D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/05       Step.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/05       Step.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/06 DragDoors.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/06 DragDoors.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/07 DragMove1D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/07 DragMove1D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/08 DragMove2D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/08 DragMove2D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/09    Threshold.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/09    Threshold.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/10 DragAlongPath.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/10 DragAlongPath.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/11    Under.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/11    Under.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/12    Smooth.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/12    Smooth.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/13 DragUnderAlongPlane.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/13 DragUnderAlongPlane.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/14    Snap.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/14    Snap.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/15 Pull.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/15 Pull.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/16    Turn 2D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/16    Turn 2D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/17 Direction.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/17 Direction.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/18 DragTorque.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/18 DragTorque.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/19 DragRescale.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/19 DragRescale.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/DragMeshColor.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/DragMeshColor.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/DragMeshDeform.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/DragMeshDeform.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/DropDestroy.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/DropDestroy.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/DropDestroyCount.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Drag/DropDestroyCount.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Follow.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Follow/01 Chase 3D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Follow/01 Chase 3D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Follow/02    Under.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Follow/02    Under.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Follow/03    Waypoints.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Follow/03    Waypoints.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Follow/04 Chase Rigidbody.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Follow/04 Chase Rigidbody.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Follow/05    Plane.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Follow/05    Plane.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Follow/06 Chase Rigidbody2D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Follow/06 Chase Rigidbody2D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Follow/07 FollowFinger.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Follow/07 FollowFinger.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Follow/08    Released.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Follow/08    Released.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Follow/09    Rotation.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Follow/09    Rotation.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Follow/10 FollowFingerLine.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Follow/10 FollowFingerLine.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/GrabSpinThrow.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/GrabSpinThrow.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/01 Line.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/01 Line.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/02    Power.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/02    Power.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/03    Clamp.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/03    Clamp.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/04    SpawnThrow 3D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/04    SpawnThrow 3D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/05    SpawnThrow 2D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/05    SpawnThrow 2D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/06 Target 3D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/06 Target 3D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/07    Throw.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/07    Throw.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/08    Under.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/08    Under.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/09 Target 2D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/09 Target 2D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/10    Throw.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/10    Throw.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/11       Rotate.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/11       Rotate.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/12    Under.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/12    Under.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/Pong Launch.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Line/Pong Launch.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/ButtonCircle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/ButtonCircle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Canvas+.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Canvas+.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Demo.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Demo.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Dotted 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Dotted 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Icon Capsule.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Icon Capsule.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Icon Cube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Icon Cube.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Icon Sphere.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Icon Sphere.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Knob.DAE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Knob.DAE.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Power Indicator.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Power Indicator.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Power Indicator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Power Indicator.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Power Indicator.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Power Indicator.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Selectable Block.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/Selectable Block.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/SelectionBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/SelectionBox.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/SelectionDashesH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/SelectionDashesH.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/SelectionDashesV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Media/SelectionDashesV.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/PressureScale.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/PressureScale.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/ReplayFinger.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/ReplayFinger.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Scripts/LeanDeselected.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Scripts/LeanDeselected.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Scripts/LeanFormatText.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Scripts/LeanFormatText.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Scripts/LeanModifyFloat.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Scripts/LeanModifyFloat.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Scripts/LeanModifyVector2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Scripts/LeanModifyVector2.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Scripts/LeanRandomEvents.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Scripts/LeanRandomEvents.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Scripts/LeanSelected.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Scripts/LeanSelected.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Scripts/LeanSelectedCount.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Scripts/LeanSelectedCount.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Scripts/LeanSelectedRatio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Scripts/LeanSelectedRatio.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Scripts/LeanSelectedText.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Scripts/LeanSelectedText.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/01 Reselect Count.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/01 Reselect Count.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/02 Selected Time.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/02 Selected Time.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/03    Action.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/03    Action.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/04 DragSelect.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/04 DragSelect.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/05    TransformRelative.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/05    TransformRelative.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/06    WithinRange.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/06    WithinRange.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/07 SelectionBox.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/07 SelectionBox.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/08    Dotted.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/08    Dotted.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/09 Pickable.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/09 Pickable.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/10    Down.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/10    Down.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/11    Press.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/11    Press.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/Count.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Selection/Count.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Shape.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Shape/01 ShapeDetector.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Shape/01 ShapeDetector.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Shape/02    Loop.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Shape/02    Loop.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Shape/03    Direction.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Shape/03    Direction.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Shape/04    Partial.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Shape/04    Partial.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Slingshot.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Slingshot.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/SwapBlocks2D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/SwapBlocks2D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/01 Finger Swipe.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/01 Finger Swipe.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/02    Swap.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/02    Swap.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/03    Move.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/03    Move.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/04    Turn.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/04    Turn.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/05    Translate.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/05    Translate.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/06       Under.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/06       Under.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/07    Translate Rigidbody.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/07    Translate Rigidbody.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/08       Under.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/08       Under.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/09    TranslateRigidbody2D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/09    TranslateRigidbody2D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/10       Under.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/10       Under.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/11 Finger Flick.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/11 Finger Flick.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/12    Rotation.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/12    Rotation.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/13    Multiple.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/13    Multiple.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/14 Multi Swipe.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/Swipe/14 Multi Swipe.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/TransformRevert.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/TransformRevert.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/TransformToggle.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Examples/TransformToggle.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/GUIDE.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/GUIDE.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/LeanTouchPlus.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/LeanTouchPlus.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/IDropHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/IDropHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanDragColorMesh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanDragColorMesh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanDragDeformMesh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanDragDeformMesh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanDragLine.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanDragLine.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanDragSelect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanDragSelect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanDragTranslateAlong.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanDragTranslateAlong.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanDragTranslateRigidbody.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanDragTranslateRigidbody.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanDragTranslateRigidbody2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanDragTranslateRigidbody2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanDrop.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanDrop.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanDropCount.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanDropCount.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanFingerDownCanvas.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanFingerDownCanvas.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanFingerFlick.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanFingerFlick.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanFingerHeld.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanFingerHeld.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanFingerTapExpired.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanFingerTapExpired.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanFingerTapQuick.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanFingerTapQuick.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanFirstDown.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanFirstDown.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanFirstDownCanvas.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanFirstDownCanvas.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanGestureToggle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanGestureToggle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanLastUp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanLastUp.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanLastUpCanvas.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanLastUpCanvas.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanManualFlick.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanManualFlick.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanManualSwipe.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanManualSwipe.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMouseWheel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMouseWheel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiDirection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiDirection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiDown.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiDown.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiHeld.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiHeld.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiPinch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiPinch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiPull.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiPull.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiSwipe.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiSwipe.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiTap.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiTap.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiTwist.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiTwist.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiUp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiUp.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiUpdate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiUpdate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiUpdateCanvas.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanMultiUpdateCanvas.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanPick.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanPick.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanPickable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanPickable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanPinchCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanPinchCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanQuickTap.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanQuickTap.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanReplayFinger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanReplayFinger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectSelf.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectSelf.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectableBlock.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectableBlock.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectableCenter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectableCenter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectableCount.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectableCount.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectableDial.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectableDial.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectableDragTorque.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectableDragTorque.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectableDrop.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectableDrop.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectablePressureScale.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectablePressureScale.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectableSelected.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectableSelected.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectableTime.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectableTime.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectionBox.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSelectionBox.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanShapeDetector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanShapeDetector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSpawnWithFinger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSpawnWithFinger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSwipeEdge.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanSwipeEdge.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanTwistCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/Scripts/LeanTwistCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch+/package.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Documentation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Documentation/Documentation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Documentation/Documentation.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/01 Finger Down.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/01 Finger Down.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/02    Position.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/02    Position.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/03 Finger Up.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/03 Finger Up.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/04 Finger Swipe.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/04 Finger Swipe.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/05    Rotation.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/05    Rotation.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/06    Direction 4.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/06    Direction 4.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/07    Direction 8.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/07    Direction 8.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/08 Finger Tap.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/08 Finger Tap.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/09    Spawn.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/09    Spawn.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/10       Block.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/10       Block.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/11       Double.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/11       Double.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/12 Finger Old.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/12 Finger Old.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/13 Transform.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/13 Transform.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/14    Relative.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/14    Relative.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/15 Selectable.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/15 Selectable.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/16 Tap To Select.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/16 Tap To Select.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/17    Transform Relative.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/17    Transform Relative.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/18    Limit = Stop At Max.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/18    Limit = Stop At Max.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/19    Limit = Deselect First.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/19    Limit = Deselect First.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/20    Destroy.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/20    Destroy.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/20    Transform Relative.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/20    Transform Relative.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/21 Tap To Toggle.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/21 Tap To Toggle.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/23 Press To Select.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/23 Press To Select.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/24    Transform Relative.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/24    Transform Relative.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/25       Isolate.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/25       Isolate.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Finger Trail.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Finger Trail.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/LeanTouch+.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/LeanTouch+.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/ArrowCurve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/ArrowCurve.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/ArrowStraight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/ArrowStraight.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/ArrowTwist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/ArrowTwist.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/Ball.physicMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/Ball.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/BigLogo+.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/BigLogo+.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/Button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/Button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/Canvas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/Canvas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/Circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/Circle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/Demo.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/Demo.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/FingerVisualization.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/FingerVisualization.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/GlowingDot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/GlowingDot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/GlowingLine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/GlowingLine.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/GlowingTrail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/GlowingTrail.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/Line.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/Line.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/Logo+.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/Logo+.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/Plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/Plus.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/Square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/Square.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/Trail.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Media/Trail.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanInfoText.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanInfoText.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanPulseScale.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanPulseScale.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanTouchEvents.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanTouchEvents.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Sidescroll2D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Sidescroll2D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Sidescroll3D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Sidescroll3D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/TouchEvents.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/TouchEvents.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/TwistRotateCustomAxis.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/TwistRotateCustomAxis.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanDragCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanDragCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanDragTrail.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanDragTrail.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanDragTranslate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanDragTranslate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanFingerData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanFingerData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanFingerDown.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanFingerDown.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanFingerFilter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanFingerFilter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanFingerOld.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanFingerOld.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanFingerSwipe.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanFingerSwipe.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanFingerTap.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanFingerTap.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanFingerUp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanFingerUp.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanFingerUpdate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanFingerUpdate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanPinchScale.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanPinchScale.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanScreenDepth.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanScreenDepth.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanScreenQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanScreenQuery.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanSelect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanSelect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanSelectBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanSelectBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanSelectByFinger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanSelectByFinger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanSelectable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanSelectable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanSelectableByFIngerBehaviour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanSelectableByFIngerBehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanSelectableByFinger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanSelectableByFinger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanSwipeBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanSwipeBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanTouchSimulator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanTouchSimulator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanTwistRotate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanTwistRotate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanTwistRotateAxis.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Extras/LeanTwistRotateAxis.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/GUIDE.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/GUIDE.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/LeanTouch.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/LeanTouch.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Scripts/LeanFinger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Scripts/LeanFinger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Scripts/LeanGesture.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Scripts/LeanGesture.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Scripts/LeanSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Scripts/LeanSnapshot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Scripts/LeanTouch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Scripts/LeanTouch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/package.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/package.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.XML.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/readme.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_Advanced.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_Advanced.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_AdvancedSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_AdvancedSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_Basics.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_Basics.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_BasicsSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_BasicsSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenPath.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenPath.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenPathSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/DOTweenPathSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/Examples Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/Examples Assets/dotweenpro_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro Examples/Examples Assets/dotweenpro_logo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenDeAudio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenDeAudio.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenDeUnityExtended.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenDeUnityExtended.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.XML.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTk2d.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTk2d.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenPreviewManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenPreviewManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.XML.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.zip.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTweenPro/readme.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquare.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha15.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha25.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha50.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha80.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blueSquare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blueSquare.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/circle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/greenSquare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/greenSquare.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_bright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_bright.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alert.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignB.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBL.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBR.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCL.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCR.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignHC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignHC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignL.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignR.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignT.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTL.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTR.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignVC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignVC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera_border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog_border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment_border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_delete.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_demigiant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_demigiant.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeHAlignT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeHAlignT.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeVAlignL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeVAlignL.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_end.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_end.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_flipV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_flipV.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_closed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_closed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_open.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart_border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_light_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_light_border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock_open.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_nodeArrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_nodeArrow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ok.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_optionsDropdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_optionsDropdown.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_play.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_play_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_play_border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull_border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_star.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_star_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_star_border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui_border.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility_off.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/orangeSquare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/orangeSquare.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_atlas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_atlas.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_audio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_audio.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_bundle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_bundle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cog.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cross.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_demigiant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_demigiant.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_folder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_folder.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_fonts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_fonts.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_heart.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_materials.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_materials.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_models.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_models.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_particles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_particles.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_play.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_prefab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_prefab.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_scripts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_scripts.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_shaders.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_shaders.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_skull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_skull.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_star.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_terrains.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_terrains.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_textures.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_textures.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/purpleSquare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/purpleSquare.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/redSquare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/redSquare.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorder.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderAlpha15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderAlpha15.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02_darkBorders.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02_darkBorders.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedAlpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedAlpha.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmptyThick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmptyThick.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBorders.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBorders.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBordersAlpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBordersAlpha.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickEmpty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickEmpty.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickerEmpty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickerEmpty.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareCorners03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareCorners03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareCornersEmpty02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareCornersEmpty02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_empty.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted_alpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted_alpha.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/transparentSquare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/transparentSquare.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_darkBorder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_darkBorder.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_whiteBorderAlpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_whiteBorderAlpha.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha15.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha25.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha50.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha80.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare_fadeOut_bt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare_fadeOut_bt.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/yellowSquare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/yellowSquare.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/readme_DOTweenPro.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/readme_DOTweenPro.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MainPlayer/MainPlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MainPlayer/MainPlayer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/CurrencyUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/CurrencyUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/ForwardRenderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/ForwardRenderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Stickman (2).obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Stickman (2).obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Material.001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Material.001.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +1619,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -46,15 +1647,21 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="426b25a3-d3d4-4d16-8052-bc3363d2e9b3" name="Changes" comment="" />
       <created>1647679199915</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647679199915</updated>
       <workItem from="1647679208806" duration="15000" />
+      <workItem from="1647758021915" duration="4102000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
