@@ -7,12 +7,16 @@ using UnityEngine;
 public class CollectiblesCatcher : MonoBehaviour,IScaleCollectible
 {
     public bool isFinished = false;
+
+    [SerializeField] private Transform diamondMovePos;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Diamond"))
         {
+            other.GetComponent<CollectibleMovement>().enabled = false; // => Burayı kontrol et Script komponentine ulaş
             MainPlayer.Instance.StackController.IncreaseCurrentStackAmount();
             StartCoroutine(ScaleCollectibles(other,1f,1f));
+            DiamondMoveToPlayer(other.gameObject);
         }
 
         if (other.gameObject.CompareTag("Gold"))
@@ -57,16 +61,18 @@ public class CollectiblesCatcher : MonoBehaviour,IScaleCollectible
         float rate = (1.0f / time) * speed;
         while (i < 1.0f) {
             i += Time.deltaTime * rate;
-            other.transform.localScale = Vector3.Lerp(other.transform.localScale,other.transform.localScale * 2f , i*1.2f);
-            other.transform.localScale = Vector3.Lerp(other.transform.localScale,Vector3.zero *Time.deltaTime, i);
-            // other.gameObject.transform.DOMove(transform.position, .1f).SetEase(Ease.InOutSine);
-
+            // Vector3 localScale = other.transform.localScale;
+            // localScale= Vector3.Lerp(localScale,localScale * 2f , i*1.2f);
+            // localScale = Vector3.Lerp(localScale,Vector3.zero *Time.deltaTime, i);
+            other.transform.position = Vector3.Lerp(other.transform.position, diamondMovePos.position, 1.2f * i);
             yield return null;
         }
-        other.gameObject.SetActive(false);
-
+        // other.gameObject.SetActive(false);
     }
-    
-    
-    
+
+    private void DiamondMoveToPlayer(GameObject diamondObj)
+    {
+        diamondObj.transform.DOMove(diamondMovePos.position,.5f);
+    }
+
 }
