@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="426b25a3-d3d4-4d16-8052-bc3363d2e9b3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Basic-Runner-Mobile-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Basic-Runner-Mobile-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Collectibles/Diamond.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Collectibles/Diamond.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainPlayer/CollectiblesCatcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainPlayer/CollectiblesCatcher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +59,7 @@
       <workItem from="1647758021915" duration="4698000" />
       <workItem from="1647780463055" duration="2154000" />
       <workItem from="1648140426483" duration="3942000" />
+      <workItem from="1648212747550" duration="633000" />
     </task>
     <servers />
   </component>

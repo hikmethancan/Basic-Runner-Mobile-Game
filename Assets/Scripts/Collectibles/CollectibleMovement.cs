@@ -20,7 +20,8 @@ public class CollectibleMovement : MonoBehaviour
     }
 
     //  for initialization and repeatable movement
-    IEnumerator Start() {
+    IEnumerator Start() 
+    {
         startPos = transform.position;
         endPos = new Vector3(transform.position.x,1.5f,transform.position.z);
         startTime = Time.time;
@@ -32,7 +33,8 @@ public class CollectibleMovement : MonoBehaviour
         }
     }
 
-    public IEnumerator RepeatLerp(Vector3 a, Vector3 b, float time) {
+    public IEnumerator RepeatLerp(Vector3 a, Vector3 b, float time) 
+    {
         float i = 0.0f;
         float rate = (1.0f / time) * speed;
         while (i < 1.0f) {

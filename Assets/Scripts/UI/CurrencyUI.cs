@@ -21,7 +21,7 @@ public class CurrencyUI : MonoBehaviour
     private void Start()
     {
         SetCurrencyText();
-        // ResetData();
+        //ResetData();
     }
     
     public void IncreaseGoldAmount()
@@ -45,7 +45,7 @@ public class CurrencyUI : MonoBehaviour
         SetCurrencyText();
         return true;
     }
-
+     
     public void ScaleCurrencyImage()
     {
         DOTween.Complete("scaleGoldImage");

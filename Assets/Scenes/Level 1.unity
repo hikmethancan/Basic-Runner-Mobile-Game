@@ -521,37 +521,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3021541269047833861, guid: 6eea0397799ded74d957739421f007ec, type: 3}
   m_PrefabInstance: {fileID: 253946306}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &606741855
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 606741856}
-  m_Layer: 0
-  m_Name: DiamondMovePos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &606741856
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 606741855}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.008, z: -0.448}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1277465238}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &609972082 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3021541269047833861, guid: 6eea0397799ded74d957739421f007ec, type: 3}
@@ -1423,11 +1392,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8fbf96a90d48bda49a63cf21325b4711, type: 3}
---- !u!4 &1277465238 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3754328661934020384, guid: 9dcd5477f310bcd4aa7238d3bbfa5208, type: 3}
-  m_PrefabInstance: {fileID: 3754328661438755822}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1290220283 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3021541269047833861, guid: 6eea0397799ded74d957739421f007ec, type: 3}
@@ -2702,7 +2666,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3754328661934020384, guid: 9dcd5477f310bcd4aa7238d3bbfa5208, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.97
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 3754328661934020384, guid: 9dcd5477f310bcd4aa7238d3bbfa5208, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2710,7 +2674,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3754328661934020384, guid: 9dcd5477f310bcd4aa7238d3bbfa5208, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13
+      value: 10.51
       objectReference: {fileID: 0}
     - target: {fileID: 3754328661934020384, guid: 9dcd5477f310bcd4aa7238d3bbfa5208, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2744,14 +2708,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainPlayer
       objectReference: {fileID: 0}
-    - target: {fileID: 5065440650464503488, guid: 9dcd5477f310bcd4aa7238d3bbfa5208, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9037760329186697449, guid: 9dcd5477f310bcd4aa7238d3bbfa5208, type: 3}
-      propertyPath: diamondMovePos
-      value: 
-      objectReference: {fileID: 606741856}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9dcd5477f310bcd4aa7238d3bbfa5208, type: 3}
 --- !u!4 &5890203454423194779 stripped
