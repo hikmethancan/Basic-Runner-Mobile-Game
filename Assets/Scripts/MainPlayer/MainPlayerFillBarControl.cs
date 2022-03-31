@@ -30,6 +30,11 @@ public class MainPlayerFillBarControl : MonoBehaviour
     public void FillBarObstackleTriggerWarning()
     {
         DOTween.Complete("obstackleWarning");
-        wholeFillBar.DOPunchRotation(Vector3.forward * 10f, .5f).SetEase(Ease.Linear).SetId("fillBarWarning");
+        wholeFillBar.DOPunchRotation(Vector3.forward * 10f, .8f).SetEase(Ease.Linear).SetId("fillBarWarning");
+    }
+    public void FillBarObstackleTriggerScaleWarning()
+    {
+        DOTween.Complete("obstackleWarning");
+        wholeFillBar.DOPunchScale(Vector3.one * .6f, 1f, 3).SetEase(Ease.Linear).SetId("scaleWarning");
     }
 }

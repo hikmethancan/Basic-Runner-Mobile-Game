@@ -16,7 +16,7 @@ public class CollectiblesCatcher : MonoBehaviour,IScaleCollectible
             var getDiaomnd = other.gameObject;
             getDiaomnd.GetComponent<CollectibleMovement>().repeatable = false; // => Burayı kontrol et Script komponentine ulaş
             MainPlayer.Instance.StackController.IncreaseCurrentStackAmount();
-            StartCoroutine(ScaleCollectibles(other, 1f, 1f));
+            StartCoroutine(ScaleCollectibles(other, .3f, 1.4f));
             //DiamondMoveToPlayer(other.gameObject);
         }
 
@@ -32,6 +32,7 @@ public class CollectiblesCatcher : MonoBehaviour,IScaleCollectible
         {
             MainPlayer.Instance.StackController.DecreaseCurrentStackAmount();
             MainPlayer.Instance.MainPlayerFillBarControl.FillBarObstackleTriggerWarning();
+            MainPlayer.Instance.MainPlayerFillBarControl.FillBarObstackleTriggerScaleWarning();
         }
 
         if (other.gameObject.CompareTag("FinishBorder"))

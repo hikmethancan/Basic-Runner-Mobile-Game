@@ -1,4 +1,5 @@
 
+using System.Diagnostics;
 using System;
 using System.Collections;
 using DG.Tweening;
@@ -21,7 +22,7 @@ public class CurrencyUI : MonoBehaviour
     private void Start()
     {
         SetCurrencyText();
-        //ResetData();
+        ResetData();
     }
     
     public void IncreaseGoldAmount()

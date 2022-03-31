@@ -6,7 +6,6 @@ public class StackController : MonoBehaviour
 {
     [SerializeField] public int maxStackCount = 10;
     public int CurrentstackAmount { get; set; }
-    private bool isFull = false;
 
     private void Awake()
     {
@@ -44,9 +43,9 @@ public class StackController : MonoBehaviour
         if (CurrentstackAmount >= maxStackCount)
         {
             MainPlayer.Instance.MainPlayerAnimationController.SetRun2();
-            return isFull = true;
+            return true;
         }
+        return false;
 
-        return isFull = false;
     }
 }
