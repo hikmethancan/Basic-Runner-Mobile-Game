@@ -22,7 +22,7 @@ public class CurrencyUI : MonoBehaviour
     private void Start()
     {
         SetCurrencyText();
-        ResetData();
+        // ResetData();
     }
     
     public void IncreaseGoldAmount()
