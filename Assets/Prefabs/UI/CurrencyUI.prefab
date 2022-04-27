@@ -29,8 +29,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 171919422930705407}
+  m_Children: []
   m_Father: {fileID: 4412788608620690263}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -107,12 +106,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 12}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 171919421611539051}
-  m_RootOrder: 0
+  m_Father: {fileID: 4412788608620690263}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -103.94507, y: 0}
+  m_AnchoredPosition: {x: 438.05493, y: 1239}
   m_SizeDelta: {x: 84.3909, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &171919422930705406
@@ -242,6 +241,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 171919421611539051}
+  - {fileID: 171919422930705407}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -266,6 +266,4 @@ MonoBehaviour:
   GoldImage: {fileID: 171919421611539051}
   goldInitPos: {fileID: 0}
   goldPrefab: {fileID: 2584334154778551843, guid: b8ae793035d357f488fc9e7004b06580, type: 3}
-  goldScreenInitPos: {x: 0, y: 0}
   currencyAmount: 0
-  coinDeneme: {fileID: 0}

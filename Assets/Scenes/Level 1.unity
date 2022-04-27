@@ -334,11 +334,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2869130312104722039, guid: 745cc6150f3f58c4e8e0edb6c75adf9f, type: 3}
   m_PrefabInstance: {fileID: 207705494}
   m_PrefabAsset: {fileID: 0}
---- !u!224 &224653633 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 1551235848214412367, guid: 3204f7ff1add3d44d987987f9ddc77ab, type: 3}
-  m_PrefabInstance: {fileID: 1642034887115610536}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &239965646 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3021541269047833861, guid: 6eea0397799ded74d957739421f007ec, type: 3}
@@ -2633,14 +2628,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 354990654361371976, guid: 3204f7ff1add3d44d987987f9ddc77ab, type: 3}
-      propertyPath: GoldImage
-      value: 
-      objectReference: {fileID: 224653633}
-    - target: {fileID: 354990654361371976, guid: 3204f7ff1add3d44d987987f9ddc77ab, type: 3}
-      propertyPath: goldPrefab
-      value: 
-      objectReference: {fileID: 2584334154778551843, guid: b8ae793035d357f488fc9e7004b06580, type: 3}
     - target: {fileID: 354990654361371976, guid: 3204f7ff1add3d44d987987f9ddc77ab, type: 3}
       propertyPath: goldInitPos
       value: 

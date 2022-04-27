@@ -30,7 +30,7 @@ public class CurrencyUI : MonoBehaviour
         currencyAmount++;
         PlayerPrefsKeys.GoldAmount = currencyAmount;
         SetCurrencyText();
-        ScaleCurrencyImage();
+        // ScaleCurrencyImage();
     }
 
     private void SetCurrencyText()

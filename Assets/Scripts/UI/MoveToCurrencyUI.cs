@@ -1,6 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+
 using DG.Tweening;
 using UnityEngine;
 
@@ -12,20 +10,13 @@ public class MoveToCurrencyUI : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(MoveToCurrency());
+        transform.DOMove(UIManager.Instance.CurrencyUI.GoldImage.position, .5f).SetEase(Ease.InSine).OnComplete(() =>
+        {
+            gameObject.SetActive(false);
+            UIManager.Instance.CurrencyUI.GoldImage.DOPunchScale(Vector3.one * .9f, .2f, 2, .5f);
+        });
     }
 
-    IEnumerator MoveToCurrency()
-    {
-        float time = 0f;
-        while (time < 1f)
-        {
-            time += Time.deltaTime * 1.5f;
-            transform.position += Vector3.forward * Time.deltaTime * MainPlayer.Instance.MovementController.moveSpeed;
-            transform.DOMove(UIManager.Instance.CurrencyUI.GoldImage.position, 7f).SetEase(Ease.InSine);
-        }
-        yield return new WaitForSeconds(7f);
-        Destroy(gameObject);
-    }
+   
     
 }

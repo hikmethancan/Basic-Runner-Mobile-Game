@@ -23,7 +23,7 @@ public class CollectiblesCatcher : MonoBehaviour,IScaleCollectible
         if (other.gameObject.CompareTag("Gold"))
         {
             GameObject goldPref = UIManager.Instance.CurrencyUI.goldPrefab;
-            Instantiate(goldPref,UIManager.Instance.CurrencyUI.goldInitPos.position,goldPref.transform.rotation);
+            Instantiate(goldPref,Camera.main.WorldToScreenPoint(other.transform.position),goldPref.transform.rotation,UIManager.Instance.CurrencyUI.transform);
             other.gameObject.SetActive(false);
             UIManager.Instance.CurrencyUI.IncreaseGoldAmount();
         }
